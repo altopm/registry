@@ -4,6 +4,11 @@
   "type": "module",
   "description": "The official registry for the alto package manager",
   "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "tsc && node index.js"
+  },
   "repository": "https://github.com/altopm/registry",
   "author": "Levi Richardson and Contributors",
   "license": "GPL-3.0",
