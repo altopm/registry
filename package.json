@@ -1,6 +1,7 @@
 {
   "name": "registry",
   "version": "1.0.0",
+  "type": "module",
   "description": "The official registry for the alto package manager",
   "main": "index.ts",
   "repository": "https://github.com/altopm/registry",
