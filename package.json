@@ -1,7 +1,6 @@
 {
   "name": "registry",
   "version": "1.0.0",
-  "type": "module",
   "description": "The official registry for the alto package manager",
   "main": "index.ts",
   "scripts": {
@@ -23,7 +22,9 @@
   },
   "devDependencies": {
     "@azure/storage-blob": "^12.8.0",
+    "@types/cors": "^2.8.12",
     "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.13",
     "@types/node": "^16.11.6"
   }
 }
